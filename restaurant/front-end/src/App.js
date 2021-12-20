@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Layout from "./layout/Layout";
-//test
 /**
  * Defines the root application component.
  * @returns {JSX.Element}
