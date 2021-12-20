@@ -18,7 +18,7 @@ headers.append("Content-Type", "application/json");
  * Fetch `json` from the specified URL and handle error status codes and ignore `AbortError`s
  *
  * This function is NOT exported because it is not needed outside of this file.
- *
+ * test
  * @param url
  *  the url for the requst.
  * @param options
