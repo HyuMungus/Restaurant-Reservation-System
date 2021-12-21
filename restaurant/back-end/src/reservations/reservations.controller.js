@@ -1,5 +1,5 @@
 const service = require("./reservations.service");
-const asyncErrorBoundary = require("../errors/asyncErrorBoundary");     //t
+const asyncErrorBoundary = require("../errors/asyncErrorBoundary");     //test
 
 async function create(req, res) {
   const data = await service.create(req.body.data);
